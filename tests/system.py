@@ -33,6 +33,8 @@ class Config(object):
     CLIENT_V3 = None
     location = "global"
     project_id = os.environ["PROJECT_ID"]
+    print("========= PROJECT_ID")
+    print(project_id)
     use_mtls = os.environ.get("GOOGLE_API_USE_MTLS_ENDPOINT", "never")
 
 
